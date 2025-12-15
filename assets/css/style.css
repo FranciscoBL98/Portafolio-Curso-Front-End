@@ -86,3 +86,8 @@ p {
     border-radius: 5px;
     font-weight: bold;
 }
+
+.light {
+    background-color: #ffffff;
+    color: #000000;
+}
