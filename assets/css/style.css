@@ -1,0 +1,88 @@
+body {
+    background-color: #0f0f1a;
+    font-family: 'Press Start 2P';
+}
+
+.container img {
+    width: 50px;
+}
+
+.container a {
+    color: #08d9d6;
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: #f9ed69;
+}
+
+#inicio i {
+    color: #f9ed69;
+    font-size: 40px;
+}
+
+#inicio img {
+    width: 400px;
+}
+
+#inicio a {
+    color: #ff2e63;
+    ;
+}
+
+#inicio .btn {
+    background-color: #a66b08;
+}
+
+#contacto .btn {
+    background-color: #a66b08;
+    color: white;
+}
+
+.card {
+    background-color: #0f0f1a;
+    border: 2px solid #f9ed69;
+    ;
+}
+
+.card .btn {
+    background-color: #a66b08;
+    color: white;
+}
+
+.card img {
+    width: 200px;
+}
+
+.btn-retro {
+    background: #ff2e63;
+    border: 4px solid black;
+    box-shadow: 4px 4px 0 black;
+    color: #f9ed69;
+    margin-top: 20px;
+}
+
+.btn-retro:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 black;
+}
+
+h1,
+h2 {
+    color: #f9ed69;
+}
+
+p {
+    color: #08d9d6;
+}
+
+#experience h2 {
+    font-size: 30px;
+}
+
+#mensaje {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
