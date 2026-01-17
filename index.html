@@ -1,173 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap iconos-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Francisco Bravo CV</title>
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <img src="./assets/logo.png" alt="">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <div class="container">
+        <img src="./assets/logo.png" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+            <a class="nav-link" href="#experience">Sobre mi</a>
+            <a class="nav-link" href="#servicios">Proyectos</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
+            <button id="temaBtn" class="btn btn-warning ms-3">
+              Claro/oscuro
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto ">
-                    <a class="nav-link " aria-current="page" href="#inicio">Inicio</a>
-                    <a class="nav-link" href="#experience">Sobre mi</a>
-                    <a class="nav-link" href="#servicios">Proyectos</a>
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                    <button id="temaBtn" class="btn btn-warning ms-3">
-                        Claro/oscuro
-                    </button>
-
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </nav>
-
-    <section id="inicio" class="container my-5">
-        <div class="row align-items-center">
-            <div class="col-lg-6 text-center mt-4 mt-lg-0">
-                <img class="img-fluid rounded" src="assets/personaje.png" alt="">
-            </div>
-            <div class="col-lg-6 text-center">
-                <h1 class="display-5 fw-bold">Francisco Bravo</h1>
-                <p class="lead">Desarrollador front-end</p>
-                <a href="mailto:francisco.bravo.9804@gmail.com">
-                    <i class="bi bi-envelope-fill"></i></a>
-                <a href="https://github.com/FranciscoBL98">
-                    <i class="bi bi-github"></i>
-                </a>
-            </div>
+    <!-- BEM en inicio y en las secciones h1 y p -->
+    <section id="inicio" class="inicio container my-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center mt-4 mt-lg-0">
+          <img class="img-fluid rounded" src="assets/personaje.png" alt="" />
         </div>
+        <div class="col-lg-6 text-center">
+          <h1 class="inicio__titulo">Francisco Bravo</h1>
+          <p class="inicio__subtitulo">Desarrollador front-end</p>
+          <a href="mailto:francisco.bravo.9804@gmail.com">
+            <i class="bi bi-envelope-fill"></i
+          ></a>
+          <a href="https://github.com/FranciscoBL98">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
     </section>
 
-    <section id="experience" class="container my-5">
-        <div class="row align-items-center">
-            <div class="col-lg-6 text-center">
-                <h2 class="display-5 fw-bold">Experiencia laboral</h2>
-                <p>Sin experiencia laboral.</p>
-                <h2 class="display-5 fw-bold">Habilidades destacadas</h2>
-                <p>Proactivo</p>
-                <p>Trabajo en equipo</p>
-            </div>
+    <!--BEM en experience y en las secciones h2 y p-->
+    <section id="experience" class="experience container my-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center">
+          <h2 class="experience__titulo">Experiencia laboral</h2>
+          <p class="experience__texto">Sin experiencia laboral.</p>
 
-            <div class="col-lg-6 text-center">
-                <h2 class="display-5 fw-bold">Formación academica</h2>
-                <p>Virginio Gomez: Ingenieria en informatica 2019-2022</p>
-                <p>DESARROLLO DE APLICACIONES FRONT-END TRAINEE V2.0: En curso</p>
-            </div>
+          <h2 class="display-5 fw-bold">Habilidades destacadas</h2>
+          <p>Proactivo</p>
+          <p>Trabajo en equipo</p>
         </div>
+
+        <div class="col-lg-6 text-center">
+          <h2 class="display-5 fw-bold">Formación academica</h2>
+          <p>Virginio Gomez: Ingenieria en informatica 2019-2022</p>
+          <p>DESARROLLO DE APLICACIONES FRONT-END TRAINEE V2.0: En curso</p>
+        </div>
+      </div>
     </section>
 
     <div class="container text-center" id="servicios">
-        <h2>Proyectos</h2>
-        <div class="row justify-content-center">
-            <div class="card m-2" style="width: 18rem;">
-                <div class="card-body">
-                    <h2>En proceso</h2>
-                    <img src="assets/cargando.jpg" class="card-img-top">
-                    <button class="btn-retro" id="btn-change">Cambiar color</button>
-                </div>
-            </div>
-            <div class="card m-2" style="width: 18rem;">
-                <div class="card-body">
-                    <h2>En proceso</h2>
-                    <img src="assets/cargando.jpg" class="card-img-top">
-                    <button class="btn-retro">Ver</button>
-                </div>
-            </div>
-            <div class="card m-2" style="width: 18rem;">
-                <div class="card-body">
-                    <h2>En proceso</h2>
-                    <img src="assets/cargando.jpg" class="card-img-top">
-                    <button class="btn-retro">Ver</button>
-                </div>
-            </div>
+      <h2>Proyectos</h2>
+      <div class="row justify-content-center">
+        <div class="card m-2" style="width: 18rem">
+          <div class="card-body">
+            <h2>En proceso</h2>
+            <img src="assets/cargando.jpg" class="card-img-top" />
+            <button class="btn-retro" id="btn-change">Cambiar color</button>
+          </div>
         </div>
+        <div class="card m-2" style="width: 18rem">
+          <div class="card-body">
+            <h2>En proceso</h2>
+            <img src="assets/cargando.jpg" class="card-img-top" />
+            <button class="btn-retro">Ver</button>
+          </div>
+        </div>
+        <div class="card m-2" style="width: 18rem">
+          <div class="card-body">
+            <h2>En proceso</h2>
+            <img src="assets/cargando.jpg" class="card-img-top" />
+            <button class="btn-retro">Ver</button>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-
     <section id="contacto" class="container my-5">
-        <h2 class="mb-4">Contacto</h2>
+      <h2 class="mb-4">Contacto</h2>
 
-        <form id="formulario">
-            <div class="row g-3">
+      <form id="formulario">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Nombre</label>
+            <input type="text" id="nombre" class="form-control" required />
+          </div>
 
-                <div class="col-md-6">
-                    <label class="form-label">Nombre</label>
-                    <input type="text" id="nombre" class="form-control" required>
-                </div>
+          <div class="col-md-6">
+            <label class="form-label">Email</label>
+            <input type="email" id="email" class="form-control" required />
+          </div>
 
-                <div class="col-md-6">
-                    <label class="form-label">Email</label>
-                    <input type="email" id="email" class="form-control" required>
-                </div>
+          <div class="col-12">
+            <label class="form-label">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="mensajeTexto"
+              rows="4"
+              required
+            ></textarea>
+          </div>
 
-                <div class="col-12">
-                    <label class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="mensajeTexto" rows="4" required></textarea>
-                </div>
-
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="acepto" required>
-                        <label class="form-check-label" for="acepto">
-                            Acepto la política de datos
-                        </label>
-                    </div>
-                </div>
-
-                <div class="col-12">
-                    <button class="btn" type="submit">Enviar</button>
-                    <button type="reset" class="btn ">Limpiar</button>
-                </div>
-                <div id="respuesta"></div>
-
-
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="acepto"
+                required
+              />
+              <label class="form-check-label" for="acepto">
+                Acepto la política de datos
+              </label>
             </div>
-        </form>
+          </div>
+
+          <div class="col-12">
+            <button class="btn" type="submit">Enviar</button>
+            <button type="reset" class="btn">Limpiar</button>
+          </div>
+          <div id="respuesta"></div>
+        </div>
+      </form>
     </section>
 
-
     <footer class="bg-light border-top py-4 mt-5">
-        <div class="container d-flex flex-column flex-md-row justify-content-between">
-            <span>2025 Francisco Bravo</span>
-            <span><a href="" class="link-secondary me-3">Privacidad</a><a href=""
-                    class="link-secondary">Términos</a></span>
-        </div>
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between"
+      >
+        <span>2025 Francisco Bravo</span>
+        <span
+          ><a href="" class="link-secondary me-3">Privacidad</a
+          ><a href="" class="link-secondary">Términos</a></span
+        >
+      </div>
     </footer>
 
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
-        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/js/script.js"></script>
-
-</body>
-
+  </body>
 </html>
